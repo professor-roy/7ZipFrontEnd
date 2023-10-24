@@ -10,9 +10,9 @@ async function createWindow(){
 
 async function main(){
     await app.whenReady();
-    createWindow();
-}
+    await createWindow();
+ }
 
 if (typeof require !== 'undefined' && require.main === module){
-    main();
+    main().catch((e)=>console.error(e));
 }
