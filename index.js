@@ -1,11 +1,12 @@
 const {app, BrowserWindow} = require('electron');
+const path = require('path');
 
 async function createWindow(){
     const bw = new BrowserWindow({
         width: 300,
         height: 300
     })
-    bw.loadURL('about:blank');
+    bw.loadFile(path.join(__dirname, "views", "main.html"));
 }
 
 async function main(){
