@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic 7-zip GUI</title>
+</head>
+<body>
+    <form>
+        <!-- 
+            Note: We're using type="text" instead of type="file" here simply
+            because the file handling will be done on the electron side. It has
+            the capability of creating file dialogs itself, and that way we don't
+            have to do some kind of upload back to the "sever" the way we would in
+            a normal form working with files.
+        -->
+        <label for="input_file_path">Input File:</label>
+        <input name="input_file_path" type="text" disabled>
+        <button type="button">Select Input Compressed File(s)</button>
+        <label for="output_file_path">Output File:</label>
+        <input name="output_file_path" type="text" disabled>
+        <button type="button">Select Output Folder Path</button>
+        <button type="button">Unzip!</button>
+    </form>
+</body>
+</html>
