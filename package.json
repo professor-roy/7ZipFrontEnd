@@ -1,0 +1,29 @@
+{
+  "name": "7zfrontendmac",
+  "version": "1.0.0",
+  "description": "A graphical front-end for the console-only 7zip application for Mac. This is a small utility I wrote for my students using JavaScript and Electron, since these are tools they're likely to be familliar with from their studies, and which may aid in their learning in multiple ways.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/professor-roy/7ZipFrontEnd.git"
+  },
+  "keywords": [
+    "7z",
+    "7-zip",
+    "front-end",
+    "electron",
+    "javascript",
+    "js",
+    "graphical",
+    "gui"
+  ],
+  "author": "Roy Brushett",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/professor-roy/7ZipFrontEnd/issues"
+  },
+  "homepage": "https://github.com/professor-roy/7ZipFrontEnd#readme"
+}
